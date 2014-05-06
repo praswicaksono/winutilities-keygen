@@ -7,7 +7,7 @@
         Dim part2 As Integer = rand.Next(0, &HFFF)
         Dim part3 As Integer = rand.Next(0, &HFFF)
         Dim part4 As Integer = rand.Next(0, &HFFF)
-        Dim i As Integer = 1
+
         Dim _mod As Integer = 9
 
         part3 = part3 * 10 + 5
@@ -20,6 +20,6 @@
         part2 = part2 * _mod + 3
         part4 = part4 * _mod + 7
 
-        TextBox1.Text = "WYMTGGP-" + part1.ToString("X4") + "-" + part2.ToString("X4") + "-" + part3.ToString("X4") + "-" + part4.ToString("X4") + "-QKWU"
+        TextBox1.Text = "WYMTGGP-" + part1.ToString("X4") + "-" + part2.ToString("X4") + "-" + part3.ToString("X4") + "-" + part4.ToString("X4") + "-QKWU-LIFETIME"
     End Sub
 End Class
